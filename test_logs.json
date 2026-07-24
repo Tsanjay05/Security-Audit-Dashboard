@@ -1,0 +1,26 @@
+[
+  {
+    "actor": "priya.nair@company.com",
+    "role": "admin",
+    "action": "DELETE USER",
+    "resource": "/api/users/334",
+    "resourceType": "USER",
+    "ipAddress": "192.168.1.45",
+    "region": "ap-south-1",
+    "severity": "HIGH",
+    "status": "Unresolved",
+    "timestamp": "2025-06-14T08:32:11Z"
+  },
+  {
+    "actor": "alex.smith@company.com",
+    "role": "engineer",
+    "action": "UPDATE POLICY",
+    "resource": "/api/policies/12",
+    "resourceType": "POLICY",
+    "ipAddress": "10.0.0.12",
+    "region": "us-east-1",
+    "severity": "LOW",
+    "status": "Resolved",
+    "timestamp": "2025-06-15T10:15:00Z"
+  }
+]
