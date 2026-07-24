@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Axios instance configured for relative paths which will resolve via the Vite local dev server proxy
 const api = axios.create({
-  baseURL: 'https://security-audit-dashboard-2t93.onrender.com',
+  baseURL: 'https://security-audit-dashboard-2t93.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
